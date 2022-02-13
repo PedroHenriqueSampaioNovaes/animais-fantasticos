@@ -10,6 +10,6 @@ Primeiro site desenvolvido por mim focado em JavaScript, aplicando alguns de seu
 - **scroll suave**
 
 <div align="center"> 
-  <img src="assets/javascript.svg" width="60px">
+  <img src="https://user-images.githubusercontent.com/92189897/153770075-756e9360-7158-4c20-b0a9-ca9d3aa4d4cd.svg">
 </div>
 
