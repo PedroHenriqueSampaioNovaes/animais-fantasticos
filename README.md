@@ -13,4 +13,3 @@ Primeiro site desenvolvido por mim focado em JavaScript, aplicando alguns de seu
   <img src="assets/javascript.svg" width="60px">
 </div>
 
-- ![#f03c15](src="assets/javascript.svg" width="60px")
