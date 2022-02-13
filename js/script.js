@@ -62,23 +62,24 @@ function initAccordionList() {
 initAccordionList();
 
 function initShowSections() {
-  const sections = document.querySelectorAll('.js-scroll')
+  const sections = document.querySelectorAll('.js-scroll');
 
-  if (sections.length) {
-    const metadeWindow = window.innerHeight * 0.7;
-
-    function showSection() {
-      sections.forEach(section => {
+  function showSection() {
+    if (sections.length) {
+      const metadeWindow = window.innerHeight * 0.7;
+      
+      sections.forEach((section) => {
         const sectionTop = section.getBoundingClientRect().top;
-        const sectionVisivel = (sectionTop - metadeWindow) < 0
-        if (sectionVisivel) {
+        const sectionVisible = (sectionTop - metadeWindow) < 0;
+
+        if (sectionVisible) {
           section.classList.add('ativo');
         }
       })
     }
-
-    showSection();
-    window.addEventListener('scroll', showSection);
   }
+
+  showSection();
+  window.addEventListener('scroll', showSection);
 }
 initShowSections();
