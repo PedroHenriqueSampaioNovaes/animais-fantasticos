@@ -10,5 +10,7 @@ Primeiro site desenvolvido por mim focado em JavaScript, aplicando alguns de seu
 - **scroll suave**
 
 <div align="center"> 
-  <img src="assets/javascript.svg" width="60px" color="#F7DF1E">
+  <img src="assets/javascript.svg" width="60px">
 </div>
+
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
