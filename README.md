@@ -13,4 +13,4 @@ Primeiro site desenvolvido por mim focado em JavaScript, aplicando alguns de seu
   <img src="assets/javascript.svg" width="60px">
 </div>
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+- ![#f03c15](src="assets/javascript.svg" width="60px")
