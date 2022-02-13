@@ -9,3 +9,6 @@ Primeiro site desenvolvido por mim focado em JavaScript, aplicando alguns de seu
 - **navegação por tab** 
 - **scroll suave**
 
+<div align="center"> 
+  <img src="assets/javascript.svg">
+</div>
