@@ -94,7 +94,7 @@ a {
 .lista-animais {
   grid-column: 2 / 3;
   height: 350px;
-  overflow-y: scroll;
+  overflow: scroll;
 }
 
 .lista-animais::-webkit-scrollbar {
@@ -294,6 +294,12 @@ a {
 
   .lista-animais::-webkit-scrollbar-thumb {
     border: none;
+  }
+
+  .lista-animais li {
+    cursor: pointer;
+    min-width: 100px;
+    margin-right: 2px;
   }
   
   .descricao-animais {
