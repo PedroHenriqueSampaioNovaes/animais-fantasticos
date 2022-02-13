@@ -10,5 +10,5 @@ Primeiro site desenvolvido por mim focado em JavaScript, aplicando alguns de seu
 - **scroll suave**
 
 <div align="center"> 
-  <img src="assets/javascript.svg" width="60px">
+  <img src="assets/javascript.svg" width="60px" color="#F7DF1E">
 </div>
