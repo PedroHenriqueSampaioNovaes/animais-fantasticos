@@ -8,4 +8,3 @@ Primeiro site desenvolvido por mim focado em JavaScript, aplicando alguns de seu
 - **animação ao scroll**
 - **navegação por tab** 
 - **scroll suave**
-> Eu sou um bloco de citação (blockquotes)
