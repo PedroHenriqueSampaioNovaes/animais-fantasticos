@@ -259,6 +259,7 @@ a {
   margin-bottom: 2rem;
 }
 
+/* Media Queries */
 @media (max-width: 700px) {
   body {
     grid-template-columns: 1fr;
@@ -278,7 +279,7 @@ a {
   }
 
   .titulo {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .lista-animais {
@@ -316,5 +317,17 @@ a {
 
   .copy {
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 345px) {
+  .titulo {
+    font-size: 2.5rem;
+  }
+
+  
+  .animais p, .faq-lista dt, .faq-lista dd {
+    font-size: 0.875rem;
+    line-height: 1.3;
   }
 }
