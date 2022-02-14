@@ -1,7 +1,7 @@
 # animais fantásticos
 
 Site desenvolvido por mim focado em JavaScript, aplicando alguns de seus métodos e funcionalidades para manipular o DOM _(Document Object Model)_. Neste site apliquei algumas funcionalidades simples que podem ser desenvolvidas através desta linguagem de programação.
-[Link p/ animais fantásticos!](https://pedrohenriquesampaionovaes.github.io/animais-fantasticos/)
+**[Link p/ animais fantásticos!](https://pedrohenriquesampaionovaes.github.io/animais-fantasticos/)**
 
 ## Interações aplicadas
 
