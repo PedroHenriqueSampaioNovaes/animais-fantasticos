@@ -15,3 +15,4 @@ Site desenvolvido por mim focado em JavaScript, aplicando alguns de seus método
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="40" title="CSS3">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" width="40" title="JavaScript">
 </div>
+ 
