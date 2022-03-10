@@ -16,7 +16,7 @@ Site desenvolvido por mim focado em JavaScript, aplicando alguns de seus método
 - **dropdownmenu** (ao passar o mouse ou clicar sobre o link *sobre* e *parceiros*)
 
 ### Dificuldades enfrentadas
-Este projeto foi o primeiro em que comecei a colocar em prática os meus conhecimentos em JavaScript que venho conquistando ao longo dos dias, aprimorando meu raciocínio lógico e contornando bugs. No site animais-fantasticos, através do curso, aprendi sobre o efeito bubbling que pode ocasionar em ativações indevidas de eventos adicionados aos elementos, sendo possível contornar esse evento, dependendo, usando setTimeout, já que a sua execução ocorre após a leitura completa do script.
+Este projeto foi o primeiro em que comecei a colocar em prática os meus conhecimentos em JavaScript que venho conquistando ao longo dos dias, aprimorando meu raciocínio lógico e contornando bugs. No site animais-fantasticos, através do curso da origamid, aprendi sobre o efeito bubbling que pode ocasionar em ativações indevidas de eventos adicionados aos elementos, sendo possível contornar esse evento, dependendo, usando setTimeout, já que a sua execução ocorre após a leitura completa do script.
 
 <div align="center"> 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" title="HTML5">
