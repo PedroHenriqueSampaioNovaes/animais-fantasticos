@@ -13,8 +13,8 @@ Site desenvolvido por mim focado em JavaScript, aplicando alguns de seus método
 - **animação de números**
 - **dropdown menu**
 - **menu mobile**
-- **fetch ao arquivo animaisapi.json**
-- **fetch bitcoin**
+- **fetch ao arquivo animaisapi.json usando async await**
+- **fetch bitcoin usando then**
 - **tooltip ao passar o mouse sobre o mapa**
 
 <div align="center"> 
