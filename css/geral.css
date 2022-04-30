@@ -363,3 +363,10 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+.btc-preco {
+  background: #3F4;
+  padding: .2rem .5rem;
+  font-weight: bold;
+  border-radius: 2px;
+}
