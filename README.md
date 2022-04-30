@@ -9,6 +9,13 @@ Site desenvolvido por mim focado em JavaScript, aplicando alguns de seus método
 - **animação ao scroll**
 - **navegação por tab**
 - **scroll suave**
+- **modal**
+- **animação de números**
+- **dropdown menu**
+- **menu mobile**
+- **fetch ao arquivo animaisapi.json**
+- **fetch bitcoin**
+- **tooltip ao passar o mouse sobre o mapa**
 
 <div align="center"> 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" title="HTML5">
