@@ -1,0 +1,22 @@
+{
+  "name": "animais-fantasticos",
+  "version": "1.0.0",
+  "description": "Site desenvolvido por mim focado em JavaScript, aplicando alguns de seus métodos e funcionalidades para manipular o DOM _(Document Object Model)_. Neste site apliquei algumas funcionalidades simples que podem ser desenvolvidas através desta linguagem de programação.\r **[Link p/ animais fantásticos!](https://pedrohenriquesampaionovaes.github.io/animais-fantasticos/)**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroHenriqueSampaioNovaes/animais-fantasticos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroHenriqueSampaioNovaes/animais-fantasticos/issues"
+  },
+  "homepage": "https://github.com/PedroHenriqueSampaioNovaes/animais-fantasticos#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  }
+}
