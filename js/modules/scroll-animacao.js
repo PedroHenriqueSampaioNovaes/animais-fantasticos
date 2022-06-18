@@ -17,6 +17,7 @@ export default class ShowSections {
       };
     });
   }
+  
 
   checkDistance() {
     this.distance.forEach(item => {
