@@ -16,6 +16,8 @@ Site desenvolvido por mim focado em JavaScript, aplicando alguns de seus método
 - **fetch ao arquivo animaisapi.json usando async await**
 - **fetch bitcoin usando then**
 - **tooltip ao passar o mouse sobre o mapa**
+- **eslint para padronizar o código javascript**
+- **webpack para agrupar os arquivos e otimiza-los**
 
 <div align="center"> 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" title="HTML5">
