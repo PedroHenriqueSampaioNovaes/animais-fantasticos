@@ -4,7 +4,9 @@
   "description": "Site desenvolvido por mim focado em JavaScript, aplicando alguns de seus métodos e funcionalidades para manipular o DOM _(Document Object Model)_. Neste site apliquei algumas funcionalidades simples que podem ser desenvolvidas através desta linguagem de programação.\r **[Link p/ animais fantásticos!](https://pedrohenriquesampaionovaes.github.io/animais-fantasticos/)**",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack --mode development --watch --entry ./js/script.js -o ./",
+    "build": "npx webpack --mode production --entry ./js/script.js -o ./"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/PedroHenriqueSampaioNovaes/animais-fantasticos#readme",
   "devDependencies": {
-    "eslint": "^8.16.0"
+    "eslint": "^8.16.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
   }
 }
