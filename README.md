@@ -17,7 +17,7 @@ Site desenvolvido por mim focado em JavaScript, aplicando alguns de seus método
 - **fetch bitcoin usando then**
 - **tooltip ao passar o mouse sobre o mapa**
 - **eslint para padronizar o código javascript**
-- **webpack para agrupar os arquivos e otimiza-los**
+- **webpack para agrupar os arquivos e otimizá-los**
 
 <div align="center"> 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" title="HTML5">
