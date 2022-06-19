@@ -23,7 +23,6 @@ export default class ShowSections {
       if (window.pageYOffset > item.offset) {
         item.element.classList.add('ativo');
       }
-      
     })
   }
 
