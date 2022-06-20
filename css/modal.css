@@ -16,12 +16,13 @@
 }
 
 .modal {
-  min-width: 300px;
+  width: 80vw;
+  max-width: 600px;
   background: #fff;
   padding: 40px;
   border: 10px solid #FFBB55;
   box-shadow: 0 0 0 10px #fff;
-  box-sizing: content-box;
+  box-sizing: border-box;
   position: relative;
 }
 
