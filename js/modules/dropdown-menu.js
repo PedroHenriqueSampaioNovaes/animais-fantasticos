@@ -1,22 +1,37 @@
 import outsideClick from "./outsideClick.js";
 
-export default function initDropdownMenu() {
-  const dropdownMenus = document.querySelectorAll('[data-dropdown]');
-  const dropdownItems = document.querySelectorAll('.dropdown-menu');
-  const events = ['click', 'touchstart'];
+export default class DropdownMenu {
+  constructor(dropdownMenus, itens, events) {
+    this.dropdownMenus = document.querySelectorAll(dropdownMenus);
+    this.dropdownItems = document.querySelectorAll(itens);
+    this.events = events || ['click', 'touchstart'];
+    this.ativo = 'ativo';
 
-  events.forEach(userEvent => {
-    dropdownMenus.forEach(menu => menu.addEventListener(userEvent, handleClick));
-  })
-  
-  function handleClick(event) {
+    this.activeDropdownMenu = this.activeDropdownMenu.bind(this);
+  }
+
+  activeDropdownMenu(event) {
     event.preventDefault();
-    this.classList.add('ativo');
+    const element = event.currentTarget;
+    element.classList.add(this.ativo);
     
-    dropdownItems.forEach(menuItem => {
-      if(this.contains(menuItem)) {
-        outsideClick(menuItem, events, () => this.classList.remove('ativo'));
+    this.dropdownItems.forEach(menuItem => {
+      if(element.contains(menuItem)) {
+        outsideClick(menuItem, this.events, () => element.classList.remove(this.ativo));
       }
     })
+  }
+
+  addDropdownMenusEvent() {
+    this.events.forEach(userEvent => {
+      this.dropdownMenus.forEach(menu => menu.addEventListener(userEvent, this.activeDropdownMenu));
+    })
+  }
+
+  init() {
+    if (this.dropdownMenus.length) {
+      this.addDropdownMenusEvent();
+    }
+    return this;
   }
 }
