@@ -34,6 +34,6 @@ dropdownMenu.init();
 const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="items"]');
 menuMobile.init();
 
-initFetchAnimais();
+initFetchAnimais('./animaisapi.json', '.grid-numeros');
 initFetchBitcoin();
 initHorarioFuncionamento();
