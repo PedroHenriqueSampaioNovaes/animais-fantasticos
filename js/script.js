@@ -5,7 +5,7 @@ import ShowSections from './modules/scroll-animacao.js';
 import Modal from './modules/modal.js';
 import Tooltip from './modules/tooltip.js';
 import DropdownMenu from './modules/dropdown-menu.js';
-import initMenuMobile from './modules/menu-mobile.js';
+import MenuMobile from './modules/menu-mobile.js';
 import initFetchAnimais from './modules/fetch-animais.js';
 import initFetchBitcoin from './modules/fetch-bitcoin.js';
 import initHorarioFuncionamento from './modules/horario-funcionamento.js';
@@ -31,7 +31,9 @@ tooltip.init();
 const dropdownMenu = new DropdownMenu('[data-dropdown]', '.dropdown-menu');
 dropdownMenu.init();
 
-initMenuMobile();
+const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="items"]');
+menuMobile.init();
+
 initFetchAnimais();
 initFetchBitcoin();
 initHorarioFuncionamento();
