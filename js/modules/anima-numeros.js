@@ -1,7 +1,9 @@
 export default class AnimaNumeros {
   constructor(numeroList, sectionNumero) {
-    this.numeros = document.querySelectorAll('[data-numero]');
-    this.observeTarget = document.querySelector('.numeros');
+    this.numeros = document.querySelectorAll(numeroList);
+    this.observeTarget = document.querySelector(sectionNumero);
+
+    this.handleObserver = this.handleObserver.bind(this);
   }
 
   static incrementarNumero(numero) {
@@ -21,7 +23,7 @@ export default class AnimaNumeros {
   }
 
   animaNumeros() {
-    this.numeros.forEach((numero) => this.incrementarNumero(numero));
+    this.numeros.forEach((numero) => this.constructor.incrementarNumero(numero));
   }
 
   handleObserver() {
