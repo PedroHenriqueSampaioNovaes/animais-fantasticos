@@ -6,9 +6,9 @@ export default class TabMenu {
   }
 
   activeTab(index) {
-    this.tabContent.forEach(item => {
+    this.tabContent.forEach((item) => {
       item.classList.remove(this.activeClass);
-    })
+    });
 
     this.tabContent[index].classList.add(this.activeClass);
   }

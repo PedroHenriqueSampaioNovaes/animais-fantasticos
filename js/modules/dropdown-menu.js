@@ -1,4 +1,4 @@
-import outsideClick from "./outsideClick.js";
+import outsideClick from './outsideClick.js';
 
 export default class DropdownMenu {
   constructor(dropdownMenus, itens, events) {
@@ -14,18 +14,20 @@ export default class DropdownMenu {
     event.preventDefault();
     const element = event.currentTarget;
     element.classList.add(this.ativo);
-    
-    this.dropdownItems.forEach(menuItem => {
-      if(element.contains(menuItem)) {
+
+    this.dropdownItems.forEach((menuItem) => {
+      if (element.contains(menuItem)) {
         outsideClick(menuItem, this.events, () => element.classList.remove(this.ativo));
       }
-    })
+    });
   }
 
   addDropdownMenusEvent() {
-    this.events.forEach(userEvent => {
-      this.dropdownMenus.forEach(menu => menu.addEventListener(userEvent, this.activeDropdownMenu));
-    })
+    this.events.forEach((userEvent) => {
+      this.dropdownMenus.forEach((menu) => {
+        menu.addEventListener(userEvent, this.activeDropdownMenu);
+      });
+    });
   }
 
   init() {

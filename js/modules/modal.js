@@ -7,7 +7,7 @@ export default class Modal {
     this.eventToggleModal = this.eventToggleModal.bind(this);
     this.cliqueForaModal = this.cliqueForaModal.bind(this);
   }
-  
+
   toggleModal() {
     this.containerModal.classList.toggle('ativo');
   }
@@ -28,7 +28,7 @@ export default class Modal {
   }
 
   init() {
-    if(this.containerModal && this.botaoAbrir && this.botaoFechar) {
+    if (this.containerModal && this.botaoAbrir && this.botaoFechar) {
       this.addModalEvents();
     }
     return this;

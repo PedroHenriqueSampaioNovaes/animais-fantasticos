@@ -19,11 +19,11 @@ export default class ShowSections {
   }
 
   checkDistance() {
-    this.distance.forEach(item => {
+    this.distance.forEach((item) => {
       if (window.pageYOffset > item.offset) {
         item.element.classList.add('ativo');
       }
-    })
+    });
   }
 
   addScrollSectionEvent() {
