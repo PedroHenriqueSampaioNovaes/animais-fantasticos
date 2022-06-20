@@ -3,16 +3,16 @@ export default class AccordionList {
     this.accordionList = document.querySelectorAll(list);
     this.ativo = 'ativo';
   }
-  
+
   toggleAccordion(item) {
     item.classList.toggle(this.ativo);
     item.nextElementSibling.classList.toggle(this.ativo);
   }
 
   addAccordionEvent() {
-    this.accordionList.forEach(item => {
+    this.accordionList.forEach((item) => {
       item.addEventListener('click', () => this.toggleAccordion(item));
-    })
+    });
   }
 
   init() {
