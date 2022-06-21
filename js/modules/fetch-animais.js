@@ -1,6 +1,6 @@
 import AnimaNumeros from './anima-numeros.js';
 
-export default function initFetchAnimais(url, gridNumeros) {
+export default function fetchAnimais(url, gridNumeros) {
   function createAnimal(animal) {
     const div = document.createElement('div');
     div.classList.add('numero-animal');
@@ -14,14 +14,18 @@ export default function initFetchAnimais(url, gridNumeros) {
     numeroGrid.appendChild(divAnimal);
   }
 
+  function animaAnimaisNumeros() {
+    const animaNumeros = new AnimaNumeros('[data-numero]', '.numeros');
+    animaNumeros.init();
+  }
+
   async function requestAnimals() {
     try {
       const responseAnimais = await fetch(url);
       const animaisJSON = await responseAnimais.json();
 
       animaisJSON.forEach((animal) => preencherAnimais(animal));
-      const animaNumeros = new AnimaNumeros('[data-numero]', '.numeros');
-      animaNumeros.init();
+      animaAnimaisNumeros();
     } catch (erro) {
       console.log(Error(erro));
     }
