@@ -30,5 +30,5 @@ export default function fetchAnimais(url, gridNumeros) {
       console.log(Error(erro));
     }
   }
-  requestAnimals();
+  return requestAnimals();
 }
