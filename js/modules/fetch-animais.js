@@ -15,7 +15,7 @@ export default function fetchAnimais(url, gridNumeros) {
   }
 
   function animaAnimaisNumeros() {
-    const animaNumeros = new AnimaNumeros('[data-numero]', '.numeros');
+    const animaNumeros = new AnimaNumeros('[data-numero]', '.numeros', 'ativo');
     animaNumeros.init();
   }
 
