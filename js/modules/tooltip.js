@@ -7,7 +7,7 @@ export default class Tooltip {
     this.onMouseLeave = this.onMouseLeave.bind(this);
   }
 
-  onMouseOver({currentTarget}) {
+  onMouseOver({ currentTarget }) {
     this.criarTooltipBox(currentTarget);
     currentTarget.addEventListener('mousemove', this.onMouseMove);
     currentTarget.addEventListener('mouseleave', this.onMouseLeave);
@@ -22,7 +22,7 @@ export default class Tooltip {
     this.tooltipBox = tooltipBox;
   }
 
-  onMouseLeave({currentTarget}) {
+  onMouseLeave({ currentTarget }) {
     this.tooltipBox.remove();
     currentTarget.removeEventListener('mouseleave', this.onMouseOut);
     currentTarget.removeEventListener('mousemove', this.onMouseMove);
@@ -38,11 +38,11 @@ export default class Tooltip {
   }
 
   addTooltipsEvents() {
-    this.tooltips.forEach(tooltip => tooltip.addEventListener('mouseover', this.onMouseOver));
+    this.tooltips.forEach((tooltip) => tooltip.addEventListener('mouseover', this.onMouseOver));
   }
 
   init() {
-    if(this.tooltips) {
+    if (this.tooltips) {
       this.addTooltipsEvents();
     }
     return this;
