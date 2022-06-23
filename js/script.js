@@ -36,5 +36,5 @@ menuMobile.init();
 
 fetchAnimais('./animaisapi.json', '.grid-numeros');
 fetchBitcoin('https://blockchain.info/ticker', '.btc-preco');
-// VER COMO INICIALIZAR ESLINT - ORIGAMID
+
 initHorarioFuncionamento();
