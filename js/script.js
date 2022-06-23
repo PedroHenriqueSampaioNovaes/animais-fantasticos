@@ -38,3 +38,4 @@ fetchAnimais('./animaisapi.json', '.grid-numeros');
 fetchBitcoin('https://blockchain.info/ticker', '.btc-preco');
 
 const horarioFuncionamento = new HorarioFuncionamento();
+horarioFuncionamento.init();
