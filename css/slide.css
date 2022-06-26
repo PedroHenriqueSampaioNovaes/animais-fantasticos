@@ -1,0 +1,79 @@
+.galeria {
+  grid-column: 1 / -1;
+}
+
+.slide-wrapper {
+  grid-column: 1 / -1;
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+}
+
+.slide li {
+  flex-shrink: 0;
+  width: 80vw;
+  max-width: 800px;
+  margin: 0 20px;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 40%);
+  transform: scale(.8);
+  opacity: .8;
+  transition: .4s;
+}
+
+.slide li.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.custom-control {
+  display: flex;
+  justify-content: center;
+  grid-column: 1 / -1;
+}
+
+.custom-control li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 2px;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 50%);
+  cursor: pointer;
+  transform: scale(.8);
+  opacity: .8;
+  transition: .3s;
+}
+
+.custom-control li.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.arrow-nav {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.arrow-nav button {
+  width: 95px;
+  background: #FB5;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.arrow-nav button:hover {
+  background: #E54;
+  color: #fff;
+}

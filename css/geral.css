@@ -295,7 +295,6 @@ a {
 
   .cabecalho, .grid-section, .copy {
     grid-column: 1 / -1;
-    gap: 0;
   }
   
   .cabecalho {
