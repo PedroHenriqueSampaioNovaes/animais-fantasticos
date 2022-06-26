@@ -63,6 +63,13 @@ a {
   letter-spacing: .1em;
 }
 
+.arrow-black {
+  background: url('../img/arrow-black.svg') no-repeat center;
+  display: inline-block;
+  width: 8px;
+  height: 10px;
+}
+
 /* Grid Section */
 .grid-section {
   grid-column: 2 / 4;
@@ -194,12 +201,18 @@ a {
 }
 
 .faq-lista dt::after {
-  content: '⬎';
+  content: '';
   margin-left: 10px;
+  background: url('../img/arrow-red.svg') no-repeat;
+  display: inline-block;
+  width: 8px;
+  height: 10px;
+  transform: rotate(90deg);
+  transition: .3s;
 }
 
 .faq-lista dt.ativo::after {
-  content: '⬏';
+  transform: rotate(-90deg);
 }
 
 .faq-lista dd {

@@ -47,7 +47,7 @@
   right: -30px;
   width: 50px;
   height: 50px;
-  background: #EE5544;
+  background: #EE5544 url('../img/fechar.svg') no-repeat center;
   border: 4px solid #fff;
   border-radius: 50%;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
