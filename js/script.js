@@ -45,5 +45,3 @@ const slide = new NavSlide('.slide-wrapper', '.slide');
 slide.init();
 slide.addControl('.custom-control');
 slide.addArrow('.prev', '.next');
-
-// N ESQUEÇA DE REMOVER O EVENTO DE SCROLL NO showSection PARA QUANDO CHEGAR AO FINAL DA TELA E TODAS SEÇÕES TEREM CARREGADO. ALÉM DISSO, NÃO ESQUECER DE MUDAR OS CÓDIGOS ASCII DE SETA NO HTML PARA UMA IMAGEM
