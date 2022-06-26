@@ -3,7 +3,7 @@ import debounce from './debounce.js';
 export default class ShowSections {
   constructor(sections) {
     this.sections = document.querySelectorAll(sections);
-    this.metadeWindow = window.innerHeight * 0.7;
+    this.metadeWindow = window.innerHeight * 0.6;
 
     this.checkDistance = debounce(this.checkDistance.bind(this), 50);
   }
@@ -24,6 +24,7 @@ export default class ShowSections {
         item.element.classList.add('ativo');
       }
     });
+    this.allSectionsAppeared();
   }
 
   addScrollSectionEvent() {
@@ -37,6 +38,10 @@ export default class ShowSections {
       this.addScrollSectionEvent();
     }
     return this;
+  }
+
+  allSectionsAppeared() {
+    if (this.sections[this.sections.length - 1].classList.contains('ativo')) this.stop();
   }
 
   stop() {
