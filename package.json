@@ -4,8 +4,8 @@
   "description": "Site desenvolvido por mim focado em JavaScript, aplicando alguns de seus métodos e funcionalidades para manipular o DOM _(Document Object Model)_. Neste site apliquei algumas funcionalidades simples que podem ser desenvolvidas através desta linguagem de programação.\r **[Link p/ animais fantásticos!](https://pedrohenriquesampaionovaes.github.io/animais-fantasticos/)**",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch --entry ./js/script.js -o ./",
-    "build": "webpack --mode production --entry ./js/script.js -o ./"
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/PedroHenriqueSampaioNovaes/animais-fantasticos#readme",
   "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "babel-loader": "^8.2.5",
     "eslint": "^8.18.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
