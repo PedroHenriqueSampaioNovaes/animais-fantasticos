@@ -28,6 +28,7 @@ Site desenvolvido no curso de JavaScript da Origamid, onde aplicamos alguns de s
 - **tooltip ao passar o mouse sobre o mapa**
 - **eslint para padronizar o código javascript**
 - **webpack para agrupar os arquivos e otimizá-los**
+- **Babel**
 
 ### Screenshot GIF
 
@@ -40,6 +41,20 @@ Site desenvolvido no curso de JavaScript da Origamid, onde aplicamos alguns de s
 
 ### Link
 - Site online URL: [clique aqui](https://pedrohenriquesampaionovaes.github.io/animais-fantasticos/)
+
+## Meu processo
+
+### Construindo com
+- HTML5
+- CSS3
+- GridLayout
+- JavaScript
+
+### O que eu aprendi
+Neste curso aprendi sobre o funcionamento do javascript, onde tudo se baseia em objetos pois herdam o prototype do construtor de Objetos. Além disso, aprendi a manipular o DOM _(Document Object Model)_, desenvolvendo funcionalidades interativas para o usuário, como por exemplo o menu dropdown e o carousel de imagens, etc. Ademais, tive o primeiro contato com NPM, usado para gerenciar e instalar pacotes como o *ESLINT* (padronizador de código), *WEBPACK* (agrupador de arquivos e otimizador dos mesmos) e *BABEL* (para transformar código novo em código antigo).
+
+### Observações
+Com os conhecimentos adquiridos agora o foco é desenvolver projetos que usem o javascript e aprender novas técnicas para construir códigos mais limpos e de fácil manutenção. Por fim, aprender um framework como o REACT, que estou estudando.
 
 <div align="center"> 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" title="HTML5">
