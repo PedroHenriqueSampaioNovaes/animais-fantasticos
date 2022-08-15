@@ -44,7 +44,7 @@ Site desenvolvido no curso de JavaScript da Origamid, onde aplicamos alguns de s
 
 ## Meu processo
 
-### Construindo com
+### Construido com
 - HTML5
 - CSS3
 - GridLayout
